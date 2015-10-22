@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Jordan Brock"]
   s.date = "2015-10-22"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Converts datestrings into Ruby Range objects"
   s.email = "jordan@brock.id.au"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/jordanbrock/date_range_converter"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Converts datestrings into Ruby Range objects"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

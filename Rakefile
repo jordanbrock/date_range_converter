@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "date_range_converter"
   gem.homepage = "http://github.com/jordanbrock/date_range_converter"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Converts datestrings into Ruby Range objects}
+  gem.description = %Q{Converts datestrings into Ruby Range objects}
   gem.email = "jordan@brock.id.au"
   gem.authors = ["Jordan Brock"]
   # dependencies defined in Gemfile
