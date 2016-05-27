@@ -44,6 +44,12 @@ class TestDateRangeConverter < Test::Unit::TestCase
     assert_equal Time.parse("2015-12-19"), range.end
   end
 
+  def test_string_to_daterange_with_range_to_s
+    daterange = "2015-06-01 00:00 AWST..2016-05-31 23:59 AWST"
+    range = DateRangeConverter.string_to_daterange daterange
+    assert_equal Time.parse("2015-06-01 00:00 AWST"), range.begin
+  end
+
   # def test_string_to_daterange_with_mm_dd_yyyy
   #   range = DateRangeConverter.string_to_daterange "09/29/2015 - 10/15/2015"
   #   assert_equal Time.parse("2015-09-29"), range.begin
